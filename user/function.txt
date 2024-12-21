@@ -1,0 +1,7 @@
+import numpy as np
+
+def foo1(data):
+	data_fft = np.fft.fft(data)
+	return data_fft
+
+self.res = foo1(data)
